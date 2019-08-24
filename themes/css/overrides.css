@@ -69,9 +69,37 @@ div.editor-container #workbench.editors.files.textFileEditor .minimap-shadow-vis
   z-index: 1;
 }
 
+/* fix for canvas item appearing elsewhere than text editor minimap */
 div.editor-container #workbench.editors.files.textFileEditor canvas.minimap-decorations-layer {
   padding-right: 2em;
   background: #0B0C0E;
   z-index: 1;
-  /* display: none; */
+}
+
+/* sdon't fade scrollbar in header file list */
+/* div.tabs-and-actions-container div.monaco-scrollable-element div.scrollbar.horizontal {
+  height: 0.3em !important;
+  display: block !important;
+  opacity: 0.5 !important;
+} */
+
+/* div.tabs-and-actions-container div.monaco-scrollable-element div.scrollbar.horizontal.fade.invisible * {
+} */
+
+div.tabs-and-actions-container div.monaco-scrollable-element div.scrollbar.horizontal div.slider {
+  background: #ffffff44;
+  height: 0.25em !important;
+}
+div.tabs-and-actions-container div.monaco-scrollable-element div.scrollbar.horizontal div.slider:hover {
+opacity: 1;
+cursor: pointer;
+}
+
+/* snap when scrolling header file list */
+div.tabs-and-actions-container div.monaco-scrollable-element div.tabs-container {
+  scroll-snap-type: both proximity;
+}
+
+div.monaco-icon-label {
+  scroll-snap-align: start;
 }
