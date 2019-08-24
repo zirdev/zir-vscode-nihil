@@ -1,22 +1,32 @@
 {
-    "name": "zir-nihil",
-    "displayName": "zir nihil",
-    "description": "VSCode Theme (dark)",
-    "publisher": "zir",
-    "version": "1.0.3",
-    "engines": {
-        "vscode": "^1.37.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "zir nihil",
-                "uiTheme": "vs-dark",
-                "path": "./themes/nihil-color-theme.json"
-            }
-        ]
-    }
+  "name": "zir-nihil",
+  "displayName": "zir nihil",
+  "description": "VSCode Theme (dark)",
+  "publisher": "zir",
+  "author": {
+    "name": "Zir",
+    "email": "zirdev@gmail.com",
+    "url": "https://github.com/zirdev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zirdev/zir-vscode-nihil.git"
+  },
+  "version": "1.0.3",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.37.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "zir nihil",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nihil-color-theme.json"
+      }
+    ]
+  }
 }

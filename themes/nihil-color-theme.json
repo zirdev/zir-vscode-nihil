@@ -1,6 +1,8 @@
 {
 	"name": "zir-nihil",
 	"comment": "Theme based on City Lights [http://citylights.xyz/]",
+	"vscode_custom_css.imports": ["./themes/css/overrides.css"],
+	"vscode_custom_css.policy": true,
 	"type": "dark",
 	"colors": {
 		"activityBar.background": "#1d252c",
