@@ -2,7 +2,8 @@
     "name": "zir-nihil",
     "displayName": "zir nihil",
     "description": "VSCode Theme (dark)",
-    "version": "1.0.2",
+    "publisher": "zir",
+    "version": "0.0.1",
     "engines": {
         "vscode": "^1.37.0"
     },
