@@ -2,7 +2,9 @@
 
 ## **Visual Studio Code** Theme (dark)
 
-Inspired by [City Lights](http://citylights.xyz/)
+Forked from [City Lights](http://citylights.xyz/)
+Syntax (JS, HTML CSS, Vue) adjusted to give more vivid and warmer colours.
+Colouring of folder/file tree pane simplified (using css inject extension)
 
 Main Window (Java Script syntax coloring):
 >![main_window](./themes/images/screenshots/main_window.png)
@@ -25,8 +27,8 @@ CSS syntax coloring:
   > "material-icon-theme.saturation": 0.75,  
   > "material-icon-theme.opacity": 0.9,  
 
-2. [Custom CSS](https://github.com/be5invis/vscode-custom-css) for scrollbars: 
-
+2. [Custom CSS](https://github.com/be5invis/vscode-custom-css) for scrollbars:  
+Download [overrides.css](https://github.com/zirdev/zir-vscode-nihil/blob/master/themes/css/overrides.css)
   >	"vscode_custom_css.imports": ["./themes/css/overrides.css"],  
   >	"vscode_custom_css.policy": true,  
 
