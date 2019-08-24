@@ -20,15 +20,15 @@ CSS syntax:
 
 1. Icon theme: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
-> "material-icon-theme.folders.theme": "classic",  
-> "material-icon-theme.folders.color": "#fdd835",  
-> "material-icon-theme.saturation": 0.75,  
-> "material-icon-theme.opacity": 0.9  
+  > "material-icon-theme.folders.theme": "classic",  
+  > "material-icon-theme.folders.color": "#fdd835",  
+  > "material-icon-theme.saturation": 0.75,  
+  > "material-icon-theme.opacity": 0.9,  
 
 2. [Custom CSS](https://github.com/be5invis/vscode-custom-css) for scrollbars: 
 
->	"vscode_custom_css.imports": ["./themes/css/overrides.css"],  
->	"vscode_custom_css.policy": true  
+  >	"vscode_custom_css.imports": ["./themes/css/overrides.css"],  
+  >	"vscode_custom_css.policy": true,  
 
 3. Alternate [indent lines](https://github.com/SirTori/indenticator)
 
@@ -40,4 +40,4 @@ CSS syntax:
 
 4. Font: [DejaVu Sans Mono - Bront](https://github.com/chrismwendt/bront)
 
->  "editor.fontFamily": "'DejaVu Sans Mono - Bront', Input, Menlo, Monaco, Consolas, 'Courier New', monospace"  
+  >  "editor.fontFamily": "'DejaVu Sans Mono - Bront', Input, Menlo, Monaco, Consolas, 'Courier New', monospace",  
