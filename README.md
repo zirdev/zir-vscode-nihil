@@ -4,7 +4,7 @@
 
 Inspired by [City Lights](http://citylights.xyz/)
 
-Main Window:
+Main Window (Java Script syntax coloring):
 >![main_window](./themes/images/screenshots/main_window.png)
 
 Settings:
@@ -13,7 +13,7 @@ Settings:
 File tree:
 >![file_tree](./themes/images/screenshots/file_tree.png)
 
-CSS syntax:
+CSS syntax coloring:
 >![css](./themes/images/screenshots/css.png)
 
 ## Related Settings
@@ -37,7 +37,11 @@ CSS syntax:
   >"indenticator.inner.showHighlight": true,  
   >"indenticator.color.dark": "rgb(1, 162, 226)",  
   >"indenticator.inner.color.dark": "#81A1C1",  
+4. [Error Lens](https://github.com/phindle/error-lens)
 
-4. Font: [DejaVu Sans Mono - Bront](https://github.com/chrismwendt/bront)
+  >"errorLens.delay": 500,  
+  >"errorLens.gutterIconsEnabled": true,  
+
+5. Font: [DejaVu Sans Mono - Bront](https://github.com/chrismwendt/bront)
 
   >  "editor.fontFamily": "'DejaVu Sans Mono - Bront', Input, Menlo, Monaco, Consolas, 'Courier New', monospace",  

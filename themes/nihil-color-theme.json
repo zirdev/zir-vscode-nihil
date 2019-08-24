@@ -1,8 +1,15 @@
 {
 	"name": "zir-nihil",
 	"comment": "Theme based on City Lights [http://citylights.xyz/]",
-	"vscode_custom_css.imports": ["./themes/css/overrides.css"],
+	"editor.fontFamily": "'DejaVu Sans Mono - Bront', Input, Menlo, Monaco, Consolas, 'Courier New', monospace",
+	"material-icon-theme.folders.theme": "classic",
+	"material-icon-theme.folders.color": "#fdd835",
+	"material-icon-theme.saturation": 0.75,
+	"material-icon-theme.opacity": 0.9,
+	"vscode_custom_css.imports": ["/themes/css/overrides.css"],
 	"vscode_custom_css.policy": true,
+	"errorLens.delay": 500,
+	"errorLens.gutterIconsEnabled": true,
 	"type": "dark",
 	"colors": {
 		"activityBar.background": "#1d252c",
@@ -322,11 +329,6 @@
 		//"terminal.selectionBackground": "#ffffff40",
 		//"tree.indentGuidesStroke": "#585858"
 	},
-	  "editor.fontFamily": "'DejaVu Sans Mono - Bront', Input, Menlo, Monaco, Consolas, 'Courier New', monospace",
-	  "material-icon-theme.folders.theme": "classic",
-		"material-icon-theme.folders.color": "#fdd835",
-		"material-icon-theme.saturation": 0.75,
-		"material-icon-theme.opacity": 0.9,
 		"tokenColors": [{
 				"name": "Changed",
 				"scope": [
