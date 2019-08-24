@@ -1,0 +1,21 @@
+{
+    "name": "zir-nihil",
+    "displayName": "zir nihil",
+    "description": "VSCode Theme (dark)",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "zir nihil",
+                "uiTheme": "vs-dark",
+                "path": "./themes/nihil-color-theme.json"
+            }
+        ]
+    }
+}

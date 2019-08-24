@@ -1,0 +1,77 @@
+canvas.decorationsOverviewRuler {
+  display: none;
+}
+
+/* scrollbar-background-color: darken(fade(@app-background-color, 40%), 15%); // Needs to be opaque -> atom/atom/issues/4578
+scrollbar-color: darken(@app-background-color, 12%); //rgba(92, 92, 92, 0.5); */
+
+/* scrollbar-background-color: rgba(13, 13, 13, 0.4);
+  scrollbar-color: #141414; */
+
+div.editor-container>div.scrollbar {
+  background: #0B0C0E !important;
+  /* background: rgba(38, 38, 38, 0.92); */
+  z-index: 3;
+}
+
+div.scrollbar.vertical {
+  width: 0.8em !important;
+}
+div.scrollbar.horizontal {
+  height: 0.8em !important;
+}
+
+div.scrollbar>div.slider {
+  border-radius: 5px;
+  background: #212121;
+  box-shadow: inset 0 0 3px rgba(115, 115, 115, 0.4);
+  transition: box-shadow 0.3s, opacity 0.3s, background 0.3s;
+  z-index: 3;
+}
+
+div.scrollbar.vertical>div.slider {
+  width: 0.7em !important;
+  border-top: thin solid #c7c7c7;
+  border-bottom: thin solid #c7c7c7;
+}
+
+div.scrollbar.horizontal>div.slider {
+  height: 0.7em !important;
+  border-left: thin solid #c7c7c7;
+  border-right: thin solid #c7c7c7;
+}
+
+div.scrollbar>div.slider:hover {
+  background: #3b3b3b;
+  box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.9);
+}
+
+.monaco-icon-label.folder-icon.explorer-item {
+  color: #F2B042;
+}
+
+div.monaco-list-rows>.monaco-list-row.selected {
+  box-shadow: inset 2px 0 0px 0px #539afc;
+}
+
+.monaco-decorations-style-1,
+.monaco-decorations-style-4,
+.monaco-decorations-style-7 {
+  color: inherit
+}
+
+div.editor-container canvas {
+  z-index: 2;
+}
+
+div.editor-container .minimap.slider-mouseover,
+div.editor-container .minimap-shadow-visible {
+  z-index: 1;
+}
+
+div.editor-container canvas.minimap-decorations-layer {
+  padding-right: 2em;
+  background: #0B0C0E;
+  z-index: 1;
+  /* display: none; */
+}
