@@ -20,6 +20,11 @@
   "categories": [
     "Themes"
   ],
+    "icon": "./themes/icons/zirdev.jpg",
+  "galleryBanner": {
+    "color": "#111E2E",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
