@@ -60,16 +60,16 @@ div.monaco-list-rows>.monaco-list-row.selected {
   color: inherit
 }
 
-div.editor-container canvas {
+div.editor-container #workbench.editors.files.textFileEditor canvas {
   z-index: 2;
 }
 
-div.editor-container .minimap.slider-mouseover,
-div.editor-container .minimap-shadow-visible {
+div.editor-container #workbench.editors.files.textFileEditor .minimap.slider-mouseover,
+div.editor-container #workbench.editors.files.textFileEditor .minimap-shadow-visible {
   z-index: 1;
 }
 
-div.editor-container canvas.minimap-decorations-layer {
+div.editor-container #workbench.editors.files.textFileEditor canvas.minimap-decorations-layer {
   padding-right: 2em;
   background: #0B0C0E;
   z-index: 1;

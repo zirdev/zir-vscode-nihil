@@ -519,6 +519,7 @@
 				"scope": ["entity.name.function", 
 									"entity.name.function.js",
 									"storage.type.function.arrow.js",
+									"support.function.misc.css",
 									"support.function.misc.scss"
 								],
 				"settings": {
@@ -1792,13 +1793,14 @@
 			{
 				"name": "SCSS Variable",
 				"scope": [
+					"variable.argument.css",
 					"variable.scss",
 					"variable.sass",
 					"variable.parameter.url.scss",
 					"variable.parameter.url.sass"
 				],
 				"settings": {
-					"foreground": "#addb67"
+					"foreground": "#2dace7"
 				}
 			},
 			{
