@@ -12,13 +12,14 @@
     "type": "git",
     "url": "https://github.com/zirdev/zir-vscode-nihil.git"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
   "engines": {
     "vscode": "^1.37.0"
   },
   "categories": [
-    "Themes", "Extension Packs"
+    "Themes",
+    "Extension Packs"
   ],
   "icon": "themes/icons/zirdev.jpg",
   "galleryBanner": {
@@ -35,8 +36,8 @@
     ]
   },
   "extensionPack": [
-"be5invis.vscode-custom-css",
-"mgmcdermott.vscode-language-babel",
-"octref.vetur"
+    "be5invis.vscode-custom-css",
+    "mgmcdermott.vscode-language-babel",
+    "octref.vetur"
   ]
 }
