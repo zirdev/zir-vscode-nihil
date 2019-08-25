@@ -1,6 +1,7 @@
 .vscode/**
 .vscode-test/**
 .history/**
+.samples/**
 .gitignore
 vsc-extension-quickstart.md
 nihil-color-theme.v1.0.json
