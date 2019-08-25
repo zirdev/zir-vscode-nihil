@@ -83,10 +83,14 @@ XML:
   > "material-icon-theme.saturation": 0.75,  
   > "material-icon-theme.opacity": 0.9,  
 
-2. [Custom CSS](https://github.com/be5invis/vscode-custom-css) for scrollbars:  
-Download [overrides.css](https://github.com/zirdev/zir-vscode-nihil/blob/master/themes/css/overrides.css)
-  >	"vscode_custom_css.imports": ["./themes/css/overrides.css"],  
-  >	"vscode_custom_css.policy": true,  
+2. Change looks of scrollbars and folder tree labels (or any other element of VSCode):  
+ - Install extension: [Custom CSS](https://github.com/be5invis/vscode-custom-css)  
+ - Download file: [overrides.css](https://github.com/zirdev/zir-vscode-nihil/blob/master/themes/css/overrides.css)  
+ - Add the following to VSCode `settings.json`
+  >	"vscode_custom_css.imports": ["file:///C:/path/to/css-file/overrides.css"],  
+  >	"vscode_custom_css.policy": true, 
+ - Open VSCode `Command Palette` and type in `Reload Custom CSS and JS`(more on how to use your own .css file to change looks of VSCode on [Custom CSS](https://github.com/be5invis/vscode-custom-css) extension page)  
+ - You can alter looks of any VSCode window element with CSS (it is just a fancy website running in Electron/Chrome executable) by adding CSS classes to the `overrides.css` file like you would for any other website  
 
 3. Alternate [indent lines](https://github.com/SirTori/indenticator)
 
@@ -106,14 +110,19 @@ Download [overrides.css](https://github.com/zirdev/zir-vscode-nihil/blob/master/
 ---
 ## Sources
 
-- UI forked from from [City Lights](http://citylights.xyz/)
-- syntax schema forked from [Dark Plus Syntax](https://github.com/dunstontc/dark-plus-syntax)
-- code syntax samples forked from [Dark Plus Syntax](https://github.com/dunstontc/dark-plus-syntax)
+- UI forked from [City Lights](http://citylights.xyz/)
+- Syntax schema forked from [Dark Plus Syntax](https://github.com/dunstontc/dark-plus-syntax)
+- Code syntax samples forked from [Dark Plus Syntax](https://github.com/dunstontc/dark-plus-syntax)
 
 ---
 ## ToDo
 
+- [ ] Create different colour themes and allow user to switch between palettes  
+- [ ] Allow users to assign their own colours to theme elements through VScode [`Settings`] menu and `settings.json`   
 - [ ] Python Syntax - missing class(?) decorator
 - [ ] Rust Syntax - missing variable decorator
-- [ ] improve bracket pair highlighting
-- [ ] consider toning down folder tree CSS color
+- [ ] Improve bracket pair highlighting
+- [ ] Consider toning down folder tree CSS color
+---
+### Feedback welcome on [Github](https://github.com/zirdev/zir-vscode-nihil/issues). 
+If you can help adding syntax missing for your favourite language (or you can point to a theme that has the syntax working) or have suggestions for colours that are assigned incorrectly - hit the keyboard!   
