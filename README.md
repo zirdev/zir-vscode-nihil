@@ -1,4 +1,4 @@
-# ZIR NIHIL
+# ZIR NIHIL [![vscode_logo](./themes/icons/vscode_mini.png)](https://marketplace.visualstudio.com/items?itemName=zir.zir-nihil)
 
 ## **Visual Studio Code** Theme (dark)
 
