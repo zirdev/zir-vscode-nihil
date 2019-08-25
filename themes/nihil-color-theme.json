@@ -2712,8 +2712,6 @@
 				"keyword.annotation.handlebars",
 				"meta.function.block.start.handlebars",
 				"meta.function.block.end.handlebars",
-				"punctuation.section.embedded.begin.php",
-				"punctuation.section.embedded.end.php",
 				"meta.tag.template.value.twig",
 				"punctuation.section.tag.twig"
 			],
@@ -2787,8 +2785,6 @@
 		},
 		{
 			"scope": [
-				"punctuation.section.embedded.begin.php",
-				"punctuation.section.embedded.end.php",
 				"meta.directive.vue",
 				"expression.embedded.vue",
 				"punctuation.definition.generic.begin.html",
@@ -2898,7 +2894,9 @@
 			"scope": [
 				"meta.tag.inline.any.html meta.directive.vue entity.other.attribute-name.html",
 				"meta.directive.vue punctuation.separator.key-value.html",
-				"meta.directive.vue entity.other.attribute-name.html"
+				"meta.directive.vue entity.other.attribute-name.html",
+				"punctuation.section.embedded.end.php",
+				"punctuation.section.embedded.begin.php",
 			],
 			"settings": {
 				"foreground": "#42b883"
