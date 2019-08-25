@@ -2,9 +2,11 @@
 
 ## **Visual Studio Code** Theme (dark)
 
-Syntax adjusted to give more vivid and warmer colours.
-Colouring of folder/file tree pane simplified (using css inject extension)
+- Syntax adjusted to give more vivid and warmer colours.
+- Colouring of folder/file tree pane simplified (using css inject extension).
+- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) not recommended with this theme as it might be adding to much color sprinkle.
 
+---
 
 Main Window (Java Script syntax coloring):
 >![main_window](./themes/images/screenshots/main_window.png)
@@ -30,11 +32,12 @@ Java Script (object):
 Java Script React:
 >![js_react](./themes/images/screenshots/js_react.png)
 
-Java Script Vue:
+Java Script Vue (template):
+>![js_vue_template](./themes/images/screenshots/js_vue_template.png)
+
+Java Script Vue (script):
 >![js_vue_script](./themes/images/screenshots/js_vue_script.png)
 
-Java Script Vue:
->![js_vue_template](./themes/images/screenshots/js_vue_template.png)
 C:
 >![c](./themes/images/screenshots/c.png)
 
@@ -70,8 +73,8 @@ Swift:
 
 XML:
 >![xml](./themes/images/screenshots/xml.png)
-
-## Related Settings
+---
+## Settings for some extensions used
 
 1. Icon theme: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
@@ -100,9 +103,17 @@ Download [overrides.css](https://github.com/zirdev/zir-vscode-nihil/blob/master/
 5. Font: [DejaVu Sans Mono - Bront](https://github.com/chrismwendt/bront)
 
   >  "editor.fontFamily": "'DejaVu Sans Mono - Bront', Input, Menlo, Monaco, Consolas, 'Courier New', monospace",  
-
+---
 ## Sources
 
 - UI forked from from [City Lights](http://citylights.xyz/)
 - syntax schema forked from [Dark Plus Syntax](https://github.com/dunstontc/dark-plus-syntax)
 - code syntax samples forked from [Dark Plus Syntax](https://github.com/dunstontc/dark-plus-syntax)
+
+---
+## ToDo
+
+- [ ] Python Syntax - missing class(?) decorator
+- [ ] Rust Syntax - missing variable decorator
+- [ ] improve bracket pair highlighting
+- [ ] consider toning down folder tree CSS color
