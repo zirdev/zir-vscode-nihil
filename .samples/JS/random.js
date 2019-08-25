@@ -1,4 +1,6 @@
 /* eslint-disable no-constant-condition */
+// Java Script syntax example
+
 'use strict';
 
 (function() {

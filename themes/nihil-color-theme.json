@@ -332,12 +332,21 @@
 	"tokenColors": [{
 			"scope": [
 				"comment",
+				"comment.line.double-slash",
 				"comment.line.double-slash.js",
+				"punctuation.definition.comment.js",
 				"comment.block.html",
-				"comment.block.handlebars"
+				"comment.block.handlebars",
+				"meta.embedded.expression.js source.js.jsx comment.block.js",
+				"source.org comment.line",
+				"source.org punctuation.definition.comment",
+				"meta.link.inline.org punctuation.definition.string.begin.org",
+				"meta.link.inline.org punctuation.definition.string.end.org",
+				"meta.link.inline.org markup.underline.link.org"
 			],
 			"settings": {
-				"foreground": "#505050"
+				// "foreground": "#505050"
+				"foreground": "#637777"
 			}
 		},
 		{
@@ -1458,21 +1467,6 @@
 			}
 		},
 		{
-			"scope": "punctuation.definition.comment.js",
-			"settings": {
-				"foreground": "#404040"
-			}
-		},
-		{
-			"scope": [
-				"comment.line.double-slash.js",
-				"meta.embedded.expression.js source.js.jsx comment.block.js"
-			],
-			"settings": {
-				"foreground": "#505050"
-			}
-		},
-		{
 			"scope": [
 				"variable.language.this"
 			],
@@ -1881,18 +1875,6 @@
 			],
 			"settings": {
 				"foreground": "#569cd6"
-			}
-		},
-		{
-			"scope": [
-				"source.org comment.line",
-				"source.org punctuation.definition.comment",
-				"meta.link.inline.org punctuation.definition.string.begin.org",
-				"meta.link.inline.org punctuation.definition.string.end.org",
-				"meta.link.inline.org markup.underline.link.org"
-			],
-			"settings": {
-				"foreground": "#505050"
 			}
 		},
 		{
