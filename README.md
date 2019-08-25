@@ -2,21 +2,74 @@
 
 ## **Visual Studio Code** Theme (dark)
 
-Forked from [City Lights](http://citylights.xyz/)
-Syntax (JS, HTML CSS, Vue) adjusted to give more vivid and warmer colours.
+Syntax adjusted to give more vivid and warmer colours.
 Colouring of folder/file tree pane simplified (using css inject extension)
+
 
 Main Window (Java Script syntax coloring):
 >![main_window](./themes/images/screenshots/main_window.png)
 
-Settings:
+VSC Settings:
 >![settings](./themes/images/screenshots/settings.png)
 
-File tree:
->![file_tree](./themes/images/screenshots/file_tree.png)
+Python:
+>![python](./themes/images/screenshots/python.png)
 
-CSS syntax coloring:
+Java Script:
+>![js](./themes/images/screenshots/js.png)
+
+Java Script (module):
+>![js_module](./themes/images/screenshots/js_module.png)
+
+Java Script Typescript:
+>![js_ts](./themes/images/screenshots/js_ts.png)
+
+Java Script (object):
+>![js_object](./themes/images/screenshots/js_object.png)
+
+Java Script React:
+>![js_react](./themes/images/screenshots/js_react.png)
+
+Java Script Vue:
+>![js_vue_script](./themes/images/screenshots/js_vue_script.png)
+
+Java Script Vue:
+>![js_vue_template](./themes/images/screenshots/js_vue_template.png)
+C:
+>![c](./themes/images/screenshots/c.png)
+
+C#:
+>![cs](./themes/images/screenshots/cs.png)
+
+CSS:
 >![css](./themes/images/screenshots/css.png)
+
+CSS (animation):
+>![css_animation](./themes/images/screenshots/css_animation.png)
+
+Go:
+>![go](./themes/images/screenshots/go.png)
+
+HTML:
+>![html](./themes/images/screenshots/html.png)
+
+Java:
+>![java](./themes/images/screenshots/java.png)
+
+PHP:
+>![php](./themes/images/screenshots/php.png)
+
+Ruby:
+>![ruby](./themes/images/screenshots/ruby.png)
+
+Rust:
+>![rust](./themes/images/screenshots/rust.png)
+
+Swift:
+>![swift](./themes/images/screenshots/swift.png)
+
+XML:
+>![xml](./themes/images/screenshots/xml.png)
 
 ## Related Settings
 
@@ -47,3 +100,9 @@ Download [overrides.css](https://github.com/zirdev/zir-vscode-nihil/blob/master/
 5. Font: [DejaVu Sans Mono - Bront](https://github.com/chrismwendt/bront)
 
   >  "editor.fontFamily": "'DejaVu Sans Mono - Bront', Input, Menlo, Monaco, Consolas, 'Courier New', monospace",  
+
+## Sources
+
+- UI forked from from [City Lights](http://citylights.xyz/)
+- syntax schema forked from [Dark Plus Syntax](https://github.com/dunstontc/dark-plus-syntax)
+- code syntax samples forked from [Dark Plus Syntax](https://github.com/dunstontc/dark-plus-syntax)

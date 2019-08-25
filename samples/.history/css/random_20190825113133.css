@@ -1,0 +1,107 @@
+.glossy-zir {
+  position: relative;
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0)
+  );
+  box-shadow:
+    inset 0 1.5px 0 hsla(0, 0%, 100%, 0.4),
+    inset 0px 0.5px 0 rgba(0, 0, 0, 0.4),
+    inset 0px -0.5px 0 rgba(0, 0, 0, 0.25),
+    inset 0.5px 0px 0 rgba(0, 0, 0, 0.25),
+    inset -0.5px 0px 0 rgba(0, 0, 0, 0.25);
+}
+
+.glossy-zir::before {
+  content: " "; /* ::before and ::after both require content */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: inherit;
+  /* background-color: transparent; */
+  mix-blend-mode: overlay; /* normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity */
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+}
+
+.glossy-hover.glossy-zir:hover::before {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.glossy-zir-soft {
+  position: relative;
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0)
+  );
+  box-shadow:
+    inset 0 1.5px 0 hsla(0, 0%, 100%, 0.2),
+    inset 0px 0.5px 0 rgba(0, 0, 0, 0.2),
+    inset 0px -0.5px 0 rgba(0, 0, 0, 0.15),
+    inset 0.5px 0px 0 rgba(0, 0, 0, 0.15),
+    inset -0.5px 0px 0 rgba(0, 0, 0, 0.15);
+}
+
+.glossy-zir-soft::before {
+  content: " "; /* ::before and ::after both require content */
+  position: absolute;
+  top: var(--top);
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: inherit;
+  /* background-color: transparent; */
+  mix-blend-mode: overlay; /* normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity */
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+}
+
+.glossy-hover.glossy-zir-soft:hover::before {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.hover-invert {
+  position: relative;
+}
+
+.hover-invert::before {
+  content: " "; /* ::before and ::after both require content */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: inherit;
+  mix-blend-mode: difference; /* normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity */
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+}
+
+.hover-invert:hover::before {
+  background-color: inherit;
+}
+
+.hover-rotate {
+  position: relative;
+}
+
+.hover-rotate::before {
+  content: " "; /* ::before and ::after both require content */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: inherit;
+  mix-blend-mode: difference; /* normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity */
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+}
+
+.hover-rotate:hover::before {
+  background-color: inherit;
+}
