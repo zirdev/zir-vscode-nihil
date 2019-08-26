@@ -1,5 +1,5 @@
 /* eslint-disable no-constant-condition */
-// Java Script syntax example
+// double slash comment: Java Script syntax example
 
 'use strict';
 
