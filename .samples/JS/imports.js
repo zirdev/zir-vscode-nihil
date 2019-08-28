@@ -9,4 +9,5 @@ ReactDOM.render(
     document.getElementById('app'),
 );
 
-something = path("dir")
+var getSomething = path("dir", something)
+getSomething()

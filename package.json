@@ -36,9 +36,7 @@
     ]
   },
   "extensionPack": [
-    "be5invis.vscode-custom-css",
-    "mgmcdermott.vscode-language-babel",
-    "octref.vetur"
+    "be5invis.vscode-custom-css"
   ],
   "devDependencies": {
     "prettier": "^1.18.2"
