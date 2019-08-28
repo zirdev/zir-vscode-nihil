@@ -122,7 +122,7 @@ XML:
 - [ ] Python Syntax - missing class(?) decorator
 - [ ] Rust Syntax - missing variable decorator
 - [ ] Improve bracket pair highlighting
-- [ ] Consider toning down folder tree CSS color
+- [x] Consider toning down folder tree CSS color
 ---
 ### Feedback welcome on [Github](https://github.com/zirdev/zir-vscode-nihil/issues). 
 If you can help adding syntax missing for your favourite language (or you can point to a theme that has the syntax working) or have suggestions for colours that are assigned incorrectly - hit the keyboard!   

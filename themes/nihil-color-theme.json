@@ -2557,11 +2557,15 @@
 		},
 		{
 			"scope": [
+				"keyword.control.import.js",
+				"keyword.control.import.ts",
+				"keyword.control.export.js",
+				"keyword.control.export.ts",
+				"keyword.control.require.js",
+				"keyword.control.require.ts",
 				"keyword.control.lisp",
 				"keyword.control.module",
-				"keyword.control.import.ts",
 				"keyword.control.from.ts",
-				"keyword.control.export.ts"
 			],
 			"settings": {
 				"foreground": "#c586c0"
