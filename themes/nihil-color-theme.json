@@ -879,13 +879,26 @@
 		},
 		{
 			"scope": [
-				"meta.property-list.scss",
-				"punctuation.terminator.rule.css",
-				"punctuation.terminator.rule.scss",
+				"punctuation.separator.key-value.js",
+				"punctuation.separator.key-value.ts",
 				"punctuation.separator.key-value.css",
+				"punctuation.separator.key-value.scss",
+				"punctuation.separator.key-value.less",
 				"punctuation.separator.list.comma.css",
+			],
+			"settings": {
+				"foreground": "#c586c0"
+			}
+		},
+		{
+			"scope": [
+				"meta.brace.curly",
 				"punctuation.section.property-list.begin.bracket.curly",
 				"punctuation.section.property-list.end.bracket.curly",
+				"punctuation.section.property-list.begin.bracket.round",
+				"punctuation.section.property-list.end.bracket.round",
+				"punctuation.definition.begin.bracket.round",
+				"punctuation.definition.end.bracket.round",
 				"punctuation.section.media.begin.bracket.curly",
 				"punctuation.section.media.end.bracket.curly",
 				"punctuation.section.keyframes.begin.bracket.curly.scss",
@@ -894,6 +907,17 @@
 				"source.css.scss meta.at-rule.keyframes.scss punctuation.section.keyframes.end.scss",
 				"punctuation.section.supports.begin.bracket.curly",
 				"punctuation.section.supports.end.bracket.curly"
+			],
+			"settings": {
+				// "foreground": "#d4d4d4"
+				"foreground": "#b7c5d3"
+			}
+		},
+		{
+			"scope": [
+				"meta.property-list.scss",
+				"punctuation.terminator.rule.css",
+				"punctuation.terminator.rule.scss",
 			],
 			"settings": {
 				"foreground": "#505050"
@@ -1041,7 +1065,7 @@
 		{
 			"scope": [
 				"punctuation.semi-colon.css",
-				"meta.brace.curly.css"
+				// "meta.brace.curly.css"
 			],
 			"settings": {
 				"foreground": "#505050"
@@ -1499,8 +1523,6 @@
 		},
 		{
 			"scope": [
-				"punctuation.separator.key-value.js",
-				"punctuation.separator.key-value.ts",
 				"punctuation.definition.block.js",
 				"punctuation.definition.block.ts",
 				"punctuation.separator.comma.js",
@@ -1579,6 +1601,9 @@
 		},
 		{
 			"scope": [
+				"keyword.operator.css",
+				"keyword.operator.scss",
+				"keyword.operator.less",
 				"keyword.operator.js",
 				"punctuation.accessor.js",
 				"punctuation.accessor.ts",

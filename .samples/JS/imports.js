@@ -11,3 +11,5 @@ ReactDOM.render(
 
 var getSomething = path("dir", something)
 getSomething()
+
+var abracadabra = 5 + 7;

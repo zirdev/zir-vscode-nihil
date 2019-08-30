@@ -103,6 +103,7 @@ export default {
   --breadcrumb-theme-6: #969696;
   --breadcrumb-theme-7: #4f0720;
 }
+
 .breadcrumb {
   text-align: center;
   display: inline-block;
@@ -112,6 +113,7 @@ export default {
   counter-reset: flag;
   border: thin solid rgba(26, 26, 26, 0.55);
 }
+
 .breadcrumb__step {
   text-decoration: none;
   outline: none;
@@ -127,20 +129,25 @@ export default {
   color: var(--breadcrumb-theme-5);
   transition: background 0.5s;
 }
+
 .breadcrumb__step:first-child {
   padding-left: 2em;
   /* border-radius:  0px 5px 5px 0px; */
 }
+
 .breadcrumb__step:first-child::before {
   left: 0.75em;
 }
+
 .breadcrumb__step:last-child {
   border-radius: 0 5px 5px 0;
   padding-right: 1.25em;
 }
+
 .breadcrumb__step:last-child::after {
   content: none;
 }
+
 .breadcrumb__step::before { /* circle pill */
   content: counter(flag);
   counter-increment: flag;
@@ -157,6 +164,7 @@ export default {
   background: rgba(15,15,15,0.75);
   box-shadow: 0 0 0 0.085em #123abc;
 }
+
 .breadcrumb__step::after {
   content: '';
   position: absolute;
@@ -172,26 +180,32 @@ export default {
   transition: background 0.5s;
   box-shadow: 3px -3px 0 1px var(--breadcrumb-theme-4);
 }
+
 .breadcrumb__step--active {
   color: var(--breadcrumb-theme-4);
   background: var(--breadcrumb-theme-1);
 }
+
 .breadcrumb__step--active::before {
   color: var(--breadcrumb-theme-5);
   /* background: var(--breadcrumb-theme-1); */
   box-shadow: 0 0 0 1px var(--breadcrumb-theme-7);
 }
+
 .breadcrumb__step--active::after {
   background: var(--breadcrumb-theme-1);
 }
+
 .breadcrumb__step:hover {
   color: var(--breadcrumb-theme-4);
   background: var(--breadcrumb-theme-3);
   width: auto;
 }
+
 .breadcrumb__step:hover::before {
   color: var(--breadcrumb-theme-1);
 }
+
 .breadcrumb__step:hover::after {
   color: var(--breadcrumb-theme-1);
   background: var(--breadcrumb-theme-3);
