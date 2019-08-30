@@ -99,7 +99,7 @@ div.wrapper-layout * {
 
 .item {
   // flex: 1;
-  // display: inline-block;
+  /// display: inline-block;
   border: thin solid black;
   margin: 0.25em;
   padding: 0.25em;
