@@ -115,7 +115,7 @@
     }
 
     $breakpoints: (
-      "sm": #{$breakpoint-sm}, // Mobile-landscape (and larger)
+      "sm": #{$breakpoint-sm}, /// Mobile-landscape (and larger)
       "md": #{$breakpoint-md}, // Tablet-portrait (and larger)
       "lg": #{$breakpoint-lg}, // Tablet-landscape (and larger)
       "xl": #{$breakpoint-xl}, // Laptop (and langer)

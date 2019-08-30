@@ -1,3 +1,8 @@
+
+const one = '123 s'.match(/^(\d{3})(?:\s)(\w+)$/)
+const re = /(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})/;
+let animalCount = /\b\d+ (pig|cow|chicken)s?\b/;
+
 module.exports = [
     // {
     //     "scope": [
@@ -45,3 +50,5 @@ module.exports = [
         "settings": { "foreground": "#d4d4d4", },
     },
 ];
+
+one; re; animalCount
