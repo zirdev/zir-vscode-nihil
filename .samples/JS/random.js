@@ -1,23 +1,28 @@
 /* eslint-disable no-constant-condition */
 // double slash comment: Java Script syntax example
 
-'use strict';
+"use strict";
 
 (function() {
-  var isChrome = window.chrome || navigator.userAgent.match('CriOS');
-  var isTouch = 'ontouchstart' in document.documentElement;
+  var isChrome = window.chrome || navigator.userAgent.match("CriOS");
+  var isTouch = "ontouchstart" in document.documentElement;
 
   if (!isChrome || !isTouch) {
-    return;
+    var supportsOverscroll = false;
+    let lastTouchY = 0;
+    return lastTouchY;
   }
 
-  var supportsOverscroll = false;
-  var supportsPassive = false;
-  var lastTouchY = 0;
-  var maybePrevent = false;
+  console.log(`Hello ${isChrome} World!`);
+
+  const object = {
+    key1: "value1",
+    key2: 1234,
+    "345": "value3",
+  };
 
   try {
-    if (CSS.supports('overscroll-behavior-y', 'contain')) {
+    if (CSS.supports("overscroll-behavior-y", "contain")) {
       supportsOverscroll = true;
     }
   } catch (e) {
@@ -25,13 +30,13 @@
   }
 
   if (supportsOverscroll) {
-    return (document.body.style.overscrollBehaviorY = 'contain');
+    return (document.body.style.overscrollBehaviorY = "contain");
   } else {
     var head = document.head || document.body;
-    var style = document.createElement('style');
+    var style = document.createElement("style");
     var css =
-      '\n      ::-webkit-scrollbar {\n        width: 5px;\n      }\n      ::-webkit-scrollbar-thumb {\n        border-radius: 5px;\n        background-color: rgba(0, 0, 0, 0.2);\n      }\n      body {\n        -webkit-overflow-scrolling: auto!important;\n      }\n    ';
-    style.type = 'text/css';
+      "\n      ::-webkit-scrollbar {\n        width: 5px;\n      }\n      ::-webkit-scrollbar-thumb {\n        border-radius: 5px;\n        background-color: rgba(0, 0, 0, 0.2);\n      }\n      body {\n        -webkit-overflow-scrolling: auto!important;\n      }\n    ";
+    style.type = "text/css";
 
     if (style.styleSheet) {
       style.styleSheet.cssText = css;
@@ -43,7 +48,7 @@
   }
 
   try {
-    window.addEventListener('test', null, {
+    window.addEventListener("test", null, {
       get passive() {
         return (supportsPassive = true);
       },
@@ -80,21 +85,22 @@
   };
 
   document.addEventListener(
-    'touchstart',
+    "touchstart",
     touchstartHandler,
     supportsPassive
       ? {
           passive: true,
         }
-      : false,
+      : false
   );
   document.addEventListener(
-    'touchmove',
+    "touchmove",
     touchmoveHandler,
     supportsPassive
       ? {
           passive: false,
         }
-      : false,
+      : false
   );
+  object;
 })();

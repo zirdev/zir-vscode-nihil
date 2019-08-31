@@ -30,6 +30,9 @@ func main() {
 	fmt.Printf("%x => %s\n", ciphertext, plaintext)
 }
 
+type alice []string
+type bob []string
+
 func encrypt(plaintext []byte, key []byte) ([]byte, error) {
 	c, err := aes.NewCipher(key)
 	if err != nil {

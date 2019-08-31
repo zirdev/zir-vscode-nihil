@@ -359,7 +359,9 @@
 				"comment.block.go",
 				"comment.block.documentation.ts",
 				"comment.line.number-sign.ini",
-				"comment.line.number-sign.yaml"
+				"comment.line.number-sign.yaml",
+				"string.quoted.docstring.single.python",
+				"string.quoted.docstring.double.python"
 			],
 			"settings": {
 				"foreground": "#608b4e"
@@ -498,7 +500,7 @@
 				"storage.type.generic.groovy",
 				"storage.type.object.array.groovy",
 				"storage.type.primitive.array.groovy",
-				"storage.type.primitive.groovy"
+				"storage.type.primitive.groovy",
 			],
 			"settings": {
 				"foreground": "#addb67"
@@ -821,6 +823,7 @@
 				"storage.type.variable.cs"
 			],
 			"settings": {
+				// "foreground": "#5cbd99"
 				"foreground": "#DAA520"
 			}
 		},
@@ -1328,7 +1331,7 @@
 				"storage.type.rune.go"
 			],
 			"settings": {
-				"foreground": "#DAA520"
+				"foreground": "#5cbd99"
 			}
 		},
 		{
@@ -1610,6 +1613,7 @@
 				"keyword.operator.typeof.js",
 				"keyword.operator.logical.js",
 				"keyword.operator.in.js",
+				"keyword.operator.arithmetic",
 				"keyword.operator.arithmetic.js",
 				"keyword.operator.assignment.js",
 				"keyword.operator.comparison.js",
@@ -1638,7 +1642,8 @@
 				"string.quoted.double meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#718CA1"
+				"foreground": "#B18F6A"
+				// "foreground": "#718CA1"
 			}
 		},
 		{
@@ -1650,7 +1655,6 @@
 				"keyword.operator.type.annotation.ts",
 				"keyword.operator.type.annotation.tsx",
 				"punctuation.type.flowtype",
-				"support.variable.dom",
 				"support.variable.object",
 				"support.variable.object.node",
 				"support.variable.object.process",
@@ -1662,11 +1666,10 @@
 		},
 		{
 			"scope": [
-				"support.type.object.console.js",
-				"support.function.console.js"
+				"support.variable.dom"
 			],
 			"settings": {
-				"foreground": "#718CA1"
+				"foreground": "#addb67"
 			}
 		},
 		{
@@ -2223,6 +2226,13 @@
 		{
 			"scope": [
 				"keyword.operator.misc.rust",
+			],
+			"settings": {
+				"foreground": "#911877"
+			}
+		},
+		{
+			"scope": [
 				"keyword.operator.sigil.rust"
 			],
 			"settings": {
@@ -2242,10 +2252,15 @@
 		{
 			"scope": [
 				"string.quoted.single.rust",
+				"string.quoted.double.rust",
+				"string.quoted.single.python",
+				"string.quoted.double.python",
 				"constant.character.rust"
 			],
 			"settings": {
-				"foreground": "#d7ba7d"
+				"foreground": "#766F57"
+				// "foreground": "#87c0d0"
+				// "foreground": "#d7ba7d"
 			}
 		},
 		{
@@ -2283,6 +2298,27 @@
 				"punctuation.separator.type.rust",
 				"keyword.operator.return-type.rust",
 				"meta.type_params.rust"
+			],
+			"settings": {
+				"foreground": "#5cbd99"
+			}
+		},
+		{
+			"scope": [
+				"support.class.console.js",
+				"support.function.console.js",
+				"support.type.object.console.js"
+			],
+			"settings": {
+				// "foreground": "#718CA1"
+				"foreground": "#d87316"
+			}
+		},
+		{
+			"name": "built in functions",
+			"scope": [
+				"support.function.std.rust",
+				"support.function.go"
 			],
 			"settings": {
 				"foreground": "#DAA520"
@@ -2726,10 +2762,14 @@
 		{
 			"scope": [
 				"punctuation.definition.string.begin.html",
-				"punctuation.definition.string.end.html"
+				"punctuation.definition.string.end.html",
+				"meta.attribute-with-value.id.html punctuation.separator.key-value.html",
+				"punctuation.separator.key-value.html",
+				"text.html meta.tag.block.any.html"
 			],
 			"settings": {
-				"foreground": "#b7c5d3"
+				"foreground": "#d7ba7d"
+				// "foreground": "#b7c5d3"
 			}
 		},
 		{
@@ -2746,7 +2786,7 @@
 				"punctuation.section.tag.twig"
 			],
 			"settings": {
-				"foreground": "#A57B18"
+				"foreground": "#755139"
 			}
 		},
 		{
@@ -2772,7 +2812,7 @@
 				"text.html.jinja meta.brace.round.js",
 				"text.html.jinja meta.brace.square.js",
 				"text.html.jinja punctuation.definition.block.js",
-				"text.html.jinja punctuation.separator.comma.js"
+				"text.html.jinja punctuation.separator.comma.js",
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
@@ -2792,7 +2832,33 @@
 				"meta.attribute.href.html string.quoted.double.html punctuation.definition.string.end.html"
 			],
 			"settings": {
-				"foreground": "#b7c5d3",
+				// "foreground": "#b7c5d3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.single.html",
+				"string.quoted.single.xml",
+				"string.quoted.double.html",
+				"string.quoted.double.xml",
+				"meta.tag.block.any.html",
+			],
+			"settings": {
+				"foreground": "#B3C1CE",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"text.html",
+				"text.xml",
+				"source.rust",
+				"source.python",
+				"source.go"
+			],
+			"settings": {
+				"foreground": "#B3C1CE",
 				"fontStyle": ""
 			}
 		},
@@ -2815,8 +2881,17 @@
 		},
 		{
 			"scope": [
-				"meta.directive.vue",
 				"expression.embedded.vue",
+				"expression.embedded.vue punctuation.definition.generic.begin.html",
+				"expression.embedded.vue punctuation.definition.generic.end.html",
+			],
+			"settings": {
+				"foreground": "#911877"
+			}
+		},
+		{
+			"scope": [
+				"meta.directive.vue",
 				"punctuation.definition.generic.begin.html",
 				"punctuation.definition.generic.end.html",
 				"punctuation.section.embedded.begin.smarty",
@@ -2889,7 +2964,7 @@
 				"text.html.ejs meta.brace.round.js",
 				"text.html.ejs meta.brace.square.js",
 				"text.html.ejs punctuation.definition.parameters.begin.js",
-				"text.html.ejs punctuation.definition.parameters.end.js"
+				"text.html.ejs punctuation.definition.parameters.end.js",
 			],
 			"settings": {
 				"foreground": "#d4d4d4"
@@ -2938,7 +3013,8 @@
 				"text.html.vue-html source.directive.vue punctuation.definition.string.end.html",
 			],
 			"settings": {
-				"foreground": "#cbcb41"
+				"foreground": "#42b883"
+				// "foreground": "#cbcb41"
 			}
 		},
 		{

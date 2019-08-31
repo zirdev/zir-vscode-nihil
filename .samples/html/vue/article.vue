@@ -33,7 +33,7 @@
           >
           </RwvCommentEditor>
           <p v-else>
-            <router-link :to="{ name: 'login' }">Sign in</router-link>
+            <router-link :to="{ name: 'login' }">"Sign in"</router-link>
             or
             <router-link :to="{ name: 'register' }">sign up</router-link>
             to add comments on this article.
