@@ -476,7 +476,8 @@
 				"storage.type.function"
 			],
 			"settings": {
-				"foreground": "#dcdcaa"
+				"foreground": "#EADC79"
+				// "foreground": "#dcdcaa"
 			}
 		},
 		{
@@ -585,7 +586,8 @@
 				"entity.name.function.c"
 			],
 			"settings": {
-				"foreground": "#dcdcaa"
+				"foreground": "#eadc79"
+				// "foreground": "#dcdcaa"
 			}
 		},
 		{
@@ -955,7 +957,9 @@
 				"meta.at-rule.keyframes.scss entity.other.attribute-name.scss"
 			],
 			"settings": {
-				"foreground": "#d7ba7d"
+				"foreground": "#D9AB7B"
+				// "foreground": "#d7ba7d"
+				 // meta.tag.inline.any.html
 			}
 		},
 		{
@@ -2756,7 +2760,8 @@
 		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#d7ba7d"
+				"foreground": "#D9AB7B"
+				// "foreground": "#d7ba7d"
 			}
 		},
 		{
@@ -2769,6 +2774,7 @@
 			],
 			"settings": {
 				"foreground": "#d7ba7d"
+				// "foreground": "#D9AB7B"
 				// "foreground": "#b7c5d3"
 			}
 		},
