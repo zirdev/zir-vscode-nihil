@@ -399,6 +399,30 @@
 		},
 		{
 			"scope": [
+				"keyword.other.authorization.sql"
+			],
+			"settings": {
+				"foreground": "#911877"
+			}
+		},
+		{
+			"scope": [
+				"constant.other.database-name.sql"
+			],
+			"settings": {
+				"foreground": "#5cbd99"
+			}
+		},
+		{
+			"scope": [
+				"constant.other.table-name.sql"
+			],
+			"settings": {
+				"foreground": "#addb67"
+			}
+		},
+		{
+			"scope": [
 				"constant.numeric",
 				"meta.preprocessor.numeric"
 			],
@@ -2754,7 +2778,7 @@
 				"punctuation.definition.tag"
 			],
 			"settings": {
-				"foreground": "#808080"
+				"foreground": "#a9a292"
 			}
 		},
 		{

@@ -21,6 +21,12 @@
     "Themes",
     "Extension Packs"
   ],
+  "keywords": [
+    "Theme",
+    "Color Theme",
+    "Dark Theme",
+    "Night Theme"
+  ],
   "icon": "themes/icons/zirdev.jpg",
   "galleryBanner": {
     "color": "#111E2E",
