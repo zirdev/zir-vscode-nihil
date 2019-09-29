@@ -73,6 +73,9 @@ Swift:
 
 XML:
 >![xml](./themes/images/screenshots/xml.png)
+
+Dockerfile:
+>![xml](./themes/images/screenshots/dockerfile.png)
 ---
 ## Settings for some extensions used
 

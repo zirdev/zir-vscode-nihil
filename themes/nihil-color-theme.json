@@ -399,6 +399,7 @@
 		},
 		{
 			"scope": [
+"keyword.other.special-method.from.dockerfile",
 				"keyword.other.authorization.sql"
 			],
 			"settings": {
@@ -474,9 +475,7 @@
 		},
 		{
 			"scope": [
-				"storage",
 				"storage.type",
-				"storage.modifier",
 				"constant.other.placeholder",
 				"keyword",
 				"keyword.control",
@@ -500,13 +499,16 @@
 				"storage.type.function"
 			],
 			"settings": {
-				"foreground": "#EADC79"
+				"foreground": "#DDDB8D"
+				// "foreground": "#EADC79"
 				// "foreground": "#dcdcaa"
 			}
 		},
 		{
 			"name": "Type declaration and references",
 			"scope": [
+				"storage",
+				"storage.modifier",
 				"meta.return-type",
 				"support.class",
 				"support.type",
@@ -539,7 +541,8 @@
 				"support.constant.math",
 				"support.constant.dom",
 				"support.constant.json",
-				"entity.other.inherited-class"
+				"entity.other.inherited-class",
+				"constant.numeric.version.dockerfile",
 			],
 			"settings": {
 				"foreground": "#DAA520"
@@ -558,6 +561,7 @@
 		},
 		{
 			"scope": [
+
 				"variable",
 				"support.variable",
 				"meta.definition.variable.name",
@@ -567,7 +571,8 @@
 				"variable.stylus",
 			],
 			"settings": {
-				"foreground": "#2dace7"
+				"foreground": "#8BC2DD"
+				// "foreground": "#2dace7"
 			}
 		},
 		{
@@ -587,7 +592,9 @@
 			}
 		},
 		{
-			"scope": "token.warn-token",
+			"scope": [
+				"token.warn-token",
+			],
 			"settings": {
 				"foreground": "#d7ba7d"
 			}
@@ -606,6 +613,7 @@
 		},
 		{
 			"scope": [
+				"entity.name.command.shell.dockerfile",
 				"support.function.C99.c",
 				"entity.name.function.c"
 			],
@@ -667,6 +675,8 @@
 		},
 		{
 			"scope": [
+				"punctuation.separator.statement.and.shell.dockerfile",
+				"entity.name.image.stage.dockerfile",
 				"punctuation.separator.pointer-access.c",
 				"keyword.control.directive.include.c"
 			],
@@ -819,6 +829,8 @@
 		{
 			"name": "JavaScript Other Variable",
 			"scope": [
+				"constant.other.option.shell.dockerfile",
+				"constant.other.option.dash.shell.dockerfile",
 				"variable.other.object.js",
 				"variable.other.object.ts",
 				"variable.other.object.tsx"
@@ -1820,7 +1832,13 @@
 			}
 		},
 		{
-			"scope": "markup.inserted",
+			"scope": [
+				"string.quoted.single.shell.dockerfile",
+				"string.quoted.double.dockerfile",
+				"string.quoted.single.shell.dockerfile",
+				"string.quoted.double.shell.dockerfile",
+				"markup.inserted"
+			],
 			"settings": {
 				"foreground": "#b5cea8"
 			}
@@ -1838,7 +1856,9 @@
 			}
 		},
 		{
-			"scope": "markup.inline.raw",
+			"scope": [
+				"markup.inline.raw"
+			],
 			"settings": {
 				"foreground": "#ce9178"
 			}
@@ -2164,6 +2184,7 @@
 		},
 		{
 			"scope": [
+				"string.unquoted.argument.shell.dockerfile",
 				"punctuation.separator.namespace.ruby",
 				"punctuation.separator.object.ruby",
 				"punctuation.separator.arguments.ruby",
@@ -2333,6 +2354,7 @@
 		},
 		{
 			"scope": [
+				"entity.name.image.dockerfile",
 				"support.class.console.js",
 				"support.function.console.js",
 				"support.type.object.console.js"
