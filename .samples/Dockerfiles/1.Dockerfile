@@ -1,6 +1,6 @@
 # Multiple images example
 #
-# VERSION               0.1
+# VERSION 0.1
 
 FROM ubuntu:latest AS base_image
 RUN echo foo > bar

@@ -1,8 +1,11 @@
 CREATE SCHEMA my_schema;
+/*
+Time to create some tables
+*/
 CREATE TABLE my_schema.parent_table (
   id SERIAL PRIMARY KEY,
-  name TEXT,
-  description TEXT,
+  name TEXT, --name goes here
+  description TEXT, --description goes here
   created_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   updated_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
