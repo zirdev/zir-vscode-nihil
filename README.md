@@ -4,7 +4,6 @@
 
 - Syntax adjusted to give more vivid and warmer colours.
 - Colouring of folder/file tree pane simplified (using css inject extension).
-- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) not recommended with this theme as it might be adding to much color sprinkle.
 
 ---
 

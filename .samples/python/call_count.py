@@ -12,3 +12,11 @@ class CallCount:
 def hello(name):
     print('Hello, {}'.format(name))
 
+
+__post_init__
+
+
+def __class_getitem__(): pass
+
+
+__mro_entries__

@@ -4,7 +4,7 @@
 "use strict";
 
 (function() {
-  var isChrome = window.chrome || navigator.userAgent.match("CriOS");
+  const isChrome = window.chrome || navigator.userAgent.match("CriOS");
   var isTouch = "ontouchstart" in document.documentElement;
 
   if (!isChrome || !isTouch) {
@@ -57,11 +57,11 @@
     return;
   }
 
-  var setTouchStartPoint = function setTouchStartPoint(event) {
+  const setTouchStartPoint = function setTouchStartPoint(event) {
     lastTouchY = event.touches[0].clientY;
   };
 
-  var isScrollingUp = function isScrollingUp(event) {
+  let isScrollingUp = function isScrollingUp(event) {
     var touchY = event.touches[0].clientY;
     const touchYDelta = touchY - lastTouchY;
     lastTouchY = touchY;
