@@ -1735,7 +1735,8 @@
 										"keyword.operator.decrement"
 					],
 					"settings": {
-						"foreground": "#68a1dd"
+						"foreground": "#e23996",
+							// "fontStyle": "bold"
 					}
 				},
 		{
