@@ -382,7 +382,9 @@
 				"punctuation.definition.metadata.markdown",
 				"invalid.illegal.bad-comments-or-CDATA.html",
 				"punctuation.definition.italic.markdown",
-				"punctuation.definition.bold.markdown"
+				"punctuation.definition.bold.markdown",
+				"punctuation.support.type.property-name.begin.json",
+				"punctuation.support.type.property-name.end.json"
 			],
 			"settings": {
 				"foreground": "#505050"
@@ -391,6 +393,7 @@
 		{
 			"scope": [
 				"punctuation.terminator",
+				"punctuation.separator",
 				"punctuation.separator.array.json",
 				"punctuation.terminator.rule.css",
 				"punctuation.terminator.rule.scss",
@@ -717,7 +720,8 @@
 				"punctuation.separator.statement.and.shell.dockerfile",
 				"entity.name.image.stage.dockerfile",
 				"punctuation.separator.pointer-access.c",
-				"keyword.control.directive.include.c"
+				"keyword.control.directive.include.c",
+								"punctuation.separator.dictionary.key-value.json",
 			],
 			"settings": {
 				"foreground": "#c586c0"
