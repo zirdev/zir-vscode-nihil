@@ -5,6 +5,7 @@
 **/.samples/**
 **/ideas/**
 .gitignore
+.mypy_cache
 vsc-extension-quickstart.md
 nihil-color-theme.v1.0.json
 md_screenshots.xlsx
