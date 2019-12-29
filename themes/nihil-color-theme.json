@@ -35,6 +35,24 @@
 		"debugExceptionWidget.background": "#1d252c",
 		"debugExceptionWidget.border": "#b7c5d3",
 		"debugToolBar.background": "#1d252c",
+
+		// debugIcon.startForeground
+		// debugIcon.continueForeground
+		// debugIcon.disconnectForeground
+		// debugIcon.pauseForeground
+		// debugIcon.restartForeground
+		// debugIcon.stepBackForeground
+		// debugIcon.stepIntoForeground
+		// debugIcon.stepOutForeground
+		// debugIcon.stepOverForeground
+		// debugIcon.stopForeground
+
+		// debugIcon.breakpointForeground
+		// debugIcon.breakpointDisabledForeground
+		// debugIcon.breakpointUnverifiedForeground
+		// debugIcon.breakpointStackframeForeground
+		// debugIcon.breakpointCurrentStackframeForeground
+
 		"descriptionForeground": "#b7c5d3",
 		"diffEditor.insertedTextBackground": "#3ad90011",
 		"diffEditor.insertedTextBorder": "#3ad90055",
@@ -192,6 +210,8 @@
 		"tab.unfocusedActiveForeground": "#b7c5d3",
 		"tab.unfocusedInactiveForeground": "#b7c5d3",
 
+		"terminal.integrated.rendererType": "experimentalWebgl",
+		"terminal.integrated.minimumContrastRatio": 4.5,
 		"terminal.ansiBlack": "#41505e",
 		"terminal.ansiBlue": "#539afc",
 		"terminal.ansiBrightBlack": "#b3c9dd",
@@ -606,6 +626,7 @@
 			"scope": [
 				"keyword.control",
 				"meta.arrow.js",
+				"keyword.generator.asterisk.js",
 				"storage.type.function.arrow.js",
 				"keyword.control.flow.python"
 				// "keyword.operator"
