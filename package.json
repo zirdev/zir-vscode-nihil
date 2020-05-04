@@ -53,7 +53,7 @@
           "postgresql",
           "Postgres",
           "postgres",
-          "SQL\\Postgres"
+          "SQL Postgres"
         ],
         "configuration": "./grammars/pgsql/language-configuration.json"
       }
@@ -62,7 +62,7 @@
       {
         "language": "pgsql",
         "scopeName": "source.pgsql",
-        "path": "./grammars/pgsql/PostgreSQL.tmLanguage.json"
+        "path": "./grammars/pgsql/PostgreSQL.tmLanguage"
       }
     ]
   },
