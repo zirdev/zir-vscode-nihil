@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/zirdev/zir-vscode-nihil.git"
   },
-  "version": "1.1.18",
+  "version": "1.1.19",
   "license": "MIT",
   "engines": {
     "vscode": "^1.37.0"
