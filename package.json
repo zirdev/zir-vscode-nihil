@@ -54,7 +54,8 @@
           "Postgres",
           "postgres",
           "SQL\\Postgres"
-        ]
+        ],
+        "configuration": "./grammars/pgsql/language-configuration.json"
       }
     ],
     "grammars": [
