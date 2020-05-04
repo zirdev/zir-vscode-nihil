@@ -1,0 +1,40 @@
+https://stackoverflow.com/questions/51333160/how-to-add-grammar-and-configuration-to-an-existing-vscode-language-extension-wi
+
+"contributes": {
+        "grammars": [
+            {
+                "scopeName": "al.extended",
+                "path": "./syntax/alsyntax.extended.json",
+                "injectTo": [ "source.al" ]
+            }
+        ],
+
+https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#injection-grammars
+
+{
+  "contributes": {
+    "languages": [
+      {
+        "id": "abc",
+        "extensions": [".abc"]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "abc",
+        "scopeName": "source.abc",
+        "path": "./syntaxes/abc.tmGrammar.json"
+      }
+    ]
+  }
+}
+
+
+
+
+        convert https://atom.io/packages/atomizr
+
+        POSTGRESQL
+        https://github.com/tkopets/sublime-postgresql-syntax
+
+        npx js-yaml .\grammars\PostgreSQL.YAML-tmLanguage > .\grammars\PostgreSQL.tmLanguage.json

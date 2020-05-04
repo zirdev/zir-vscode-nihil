@@ -39,12 +39,22 @@
         "uiTheme": "vs-dark",
         "path": "./themes/nihil-color-theme.json"
       }
+    ],
+    "grammars": [
+      {
+        "scopeName": "pgsql.extended",
+        "path": "./grammars/pgsql/PostgreSQL.tmLanguage.json",
+        "injectTo": [
+          "source.pgsql"
+        ]
+      }
     ]
   },
   "extensionPack": [
     "be5invis.vscode-custom-css"
   ],
   "devDependencies": {
+    "js-yaml": "^3.13.1",
     "prettier": "^1.18.2"
   }
 }
