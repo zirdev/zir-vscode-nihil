@@ -40,9 +40,26 @@
         "path": "./themes/nihil-color-theme.json"
       }
     ],
+    "languages": [
+      {
+        "id": "pgsql",
+        "extensions": [
+          ".pgsql",
+          ".psql",
+          ".sql"
+        ],
+        "aliases": [
+          "PostgreSQL",
+          "postgresql",
+          "Postgres",
+          "postgres",
+          "SQL\\Postgres"
+        ]
+      }
+    ],
     "grammars": [
       {
-        "language": "SQL/Postgres (pgsql)",
+        "language": "pgsql",
         "scopeName": "source.pgsql",
         "path": "./grammars/pgsql/PostgreSQL.tmLanguage.json"
       }
