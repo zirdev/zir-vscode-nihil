@@ -29,6 +29,15 @@ https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#inj
   }
 }
 
+  "grammars": [
+      {
+        "scopeName": "pgsql.extended",
+        "path": "./grammars/pgsql/PostgreSQL.tmLanguage.json",
+        "injectTo": [
+          "source.pgsql"
+        ]
+      }
+    ],
 
 
 

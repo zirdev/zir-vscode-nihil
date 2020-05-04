@@ -42,11 +42,9 @@
     ],
     "grammars": [
       {
-        "scopeName": "pgsql.extended",
-        "path": "./grammars/pgsql/PostgreSQL.tmLanguage.json",
-        "injectTo": [
-          "source.pgsql"
-        ]
+        "language": "SQL/Postgres (pgsql)",
+        "scopeName": "source.pgsql",
+        "path": "./grammars/pgsql/PostgreSQL.tmLanguage.json"
       }
     ]
   },
