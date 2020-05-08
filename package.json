@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/zirdev/zir-vscode-nihil.git"
   },
-  "version": "1.1.25",
+  "version": "1.1.26",
   "license": "MIT",
   "engines": {
     "vscode": "^1.37.0"
@@ -27,7 +27,7 @@
     "Dark Theme",
     "Night Theme"
   ],
- "icon": "themes/icons/zirdev.jpg",
+  "icon": "themes/icons/zirdev.jpg",
   "galleryBanner": {
     "color": "#111E2E",
     "theme": "dark"
