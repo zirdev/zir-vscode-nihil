@@ -229,10 +229,9 @@
 						<key>name</key>
 						<string>variable.trigger.pgsql</string>
 					</dict>
-					<!-- (?:format\((\S+)|(?!^)\G)*(%s|%L|%I) -->
 					<dict>
 						<key>match</key>
-						<string>(?gmis)(?:\G(?!\A)|format\()(?:(?!\)).)*?\K(?:%s|%L|%I)</string>
+						<string>(?i)(?:\G(?!\A)|format\()(?:(?!\)).)*?\K(?:%s|%L|%I)</string>
 						<key>name</key>
 						<string>format.string.interpolation.pgsql</string>
 					</dict>
