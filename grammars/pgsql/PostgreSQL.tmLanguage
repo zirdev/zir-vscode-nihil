@@ -231,7 +231,7 @@
 					</dict>
 					<dict>
 						<key>match</key>
-						<string>(?i)(?:\G(?!\A)|format\()(?:(?!\)).)*?\K(?:%s|%L|%I)</string>
+						<string>(?isg)(?:\G(?!\A)|format\()(?:(?!\)).)*?\K(?:%s|%L|%I)</string>
 						<key>name</key>
 						<string>format.string.interpolation.pgsql</string>
 					</dict>
