@@ -27,12 +27,12 @@
     "Dark Theme",
     "Night Theme"
   ],
-  "icon": "themes/icons/zirdev.jpg",
+ "icon": "themes/icons/zirdev.jpg",
   "galleryBanner": {
     "color": "#111E2E",
     "theme": "dark"
   },
- "contributes": {
+  "contributes": {
     "themes": [
       {
         "label": "zir nihil",
@@ -45,6 +45,6 @@
     "be5invis.vscode-custom-css"
   ],
   "devDependencies": {
-    "js-yaml": "^3.13.1",
     "prettier": "^1.18.2"
   }
+}
