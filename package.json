@@ -40,31 +40,31 @@
         "path": "./themes/nihil-color-theme.json"
       }
     ],
-    "languages": [
-      {
-        "id": "pgsql",
-        "extensions": [
-          ".pgsql",
-          ".psql",
-          ".sql"
-        ],
-        "aliases": [
-          "PostgreSQL",
-          "postgresql",
-          "Postgres",
-          "postgres",
-          "SQL Postgres"
-        ],
-        "configuration": "./grammars/pgsql/language-configuration.json"
-      }
-    ],
-    "grammars": [
-      {
-        "language": "pgsql",
-        "scopeName": "source.pgsql",
-        "path": "./grammars/pgsql/PostgreSQL.tmLanguage"
-      }
-    ]
+    // "languages": [
+    //   {
+    //     "id": "pgsql",
+    //     "extensions": [
+    //       ".pgsql",
+    //       ".psql",
+    //       ".sql"
+    //     ],
+    //     "aliases": [
+    //       "PostgreSQL",
+    //       "postgresql",
+    //       "Postgres",
+    //       "postgres",
+    //       "SQL Postgres"
+    //     ],
+    //     "configuration": "./grammars/pgsql/language-configuration.json"
+    //   }
+    // ],
+    // "grammars": [
+    //   {
+    //     "language": "pgsql",
+    //     "scopeName": "source.pgsql",
+    //     "path": "./grammars/pgsql/PostgreSQL.tmLanguage"
+    //   }
+    // ]
   },
   "extensionPack": [
     "be5invis.vscode-custom-css"
