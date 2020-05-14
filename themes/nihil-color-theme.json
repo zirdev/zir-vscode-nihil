@@ -1825,7 +1825,9 @@
 				"meta.object-literal.key string.quoted.double",
 				"string.quoted.single meta.object-literal.key",
 				"string.quoted.double meta.object-literal.key",
-				"string.quoted.multi.python"
+				"string.quoted.multi.python",
+				"constant.object.key.graphql",
+				"meta.listvalues.graphql"
 			],
 			"settings": {
 				"foreground": "#B18F6A"
