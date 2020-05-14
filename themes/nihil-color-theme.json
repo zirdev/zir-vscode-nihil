@@ -1826,7 +1826,7 @@
 				"string.quoted.single meta.object-literal.key",
 				"string.quoted.double meta.object-literal.key",
 				"string.quoted.multi.python",
-				"constant.object.key.graphql",
+				"constant.object.key.graphql string.unquoted.graphql",
 				"meta.listvalues.graphql"
 			],
 			"settings": {
